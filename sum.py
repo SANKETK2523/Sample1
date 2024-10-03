@@ -1,9 +1,13 @@
-num=int(input("Enter how many numbers to add = "))
+# Sum of natural numbers up to num
 
-sum1=0
+num = 16
 
-for i in range(1,num+1):
-
-sum1=sum1+i
-
-print("The sum of first {0} numbers = {1} ".format(num,sum1))
+if num < 0:
+   print("Enter a positive number")
+else:
+   sum = 0
+   # use while loop to iterate until zero
+   while(num > 0):
+       sum += num
+       num -= 1
+   print("The sum is", sum)
