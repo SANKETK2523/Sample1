@@ -1,11 +1,7 @@
+sum=0
+i=1
+while(i<=10):
+   sum=sum+i
+   i=i+1
 
-num = 10
-
-if num < 0:
-   print("Enter a positive number")
-else:
-   sum = 0
-   while(num > 0):
-       sum += num
-       num -= 1
-   print("The sum is", sum)
+print(sum)
